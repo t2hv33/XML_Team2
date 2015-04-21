@@ -1,0 +1,353 @@
+body {
+    background: url(../images/background-pixel.jpg) repeat-x;
+} 
+#main {
+    width: 972px;
+    margin: 0 auto;
+    background: #ffffff;
+}
+
+.header-banner{
+    background: url(../images/banner.jpg) no-repeat;
+    height: 136px;
+}
+
+#logo {
+    height: 199px;
+}
+.FuncBox {
+    width: 100%;
+    height: 37px;
+    background: url(../images/menu-pixel.jpg) repeat-x;
+}
+
+#menu {
+    float: left;
+    color: #ffffff;
+}
+
+#menu li {
+    float: left;
+    color: #ffffff;    
+}
+
+.RelativeContainer {
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    padding: 2px 2px 0 0;
+}
+
+.UnknownWidthBtn:link span{
+    color: #FFF;
+    font-weight: bold;
+    font-size: 1.4em; 
+    height: 37px;
+    background: url(../images/thanh-chan.png) right no-repeat;
+    padding-right: 10px;
+}
+
+.UnknownWidthBtn:link, 
+.UnknownWidthBtn:visited {
+    height: 37px;
+    float: left;
+    padding: 12px 0 0 10px;    
+    text-decoration: none;
+    color: #303030;
+}
+
+.Active .UnknownWidthBtn:link, 
+.Active .UnknownWidthBtn:visited {  
+    color: #303030;
+}
+
+.UnknownWidthBtn:visited span {							
+    padding: 0 4px 0 12px;
+    float: left;
+    text-decoration: none;
+    cursor: pointer; 
+}
+
+.Active .UnknownWidthBtn:link span,
+.Active .UnknownWidthBtn:visited span {
+    color: #FFF;
+}
+
+.UnknownWidthBtn:hover span {    
+    color: #FFF;
+}
+
+.UnknownWidthBtn:hover,
+.Active .UnknownWidthBtn {
+    color: #ff;
+    background: url(../images/active-menu-pixel.jpg) repeat-x;
+}
+
+#searchBox {
+    font-size: 1.3em;
+    float: left;
+    padding: 105px 0 0 10px;
+    color: #807d7d;
+}
+
+
+
+
+input.SubmitBtn {
+    background: url(../images/button-search.jpg) no-repeat;
+    width: 30px;
+    height: 21px;
+    border: none;
+    cursor: pointer;
+}
+
+#content {
+    width: 972px;
+    overflow: hidden;
+    font-size: 1.2em;
+}
+
+#column-22 p img{
+    padding: 0 10px 0 10px;
+}
+
+.SubContent01 {
+    width: 194px;
+    float: left;
+    border: 1px #cfe3f0 solid;
+    margin-left: 14px;
+    background: url(../images/footer-cat.jpg) bottom repeat-x;
+}
+
+#nav h3 {
+    font-size: 1.3em;
+    color: #186ba2;
+    height: 20px;
+    padding: 5px 0 5px 5px;
+    border-bottom: 3px #303030 solid;
+}
+
+.catPro{
+    padding: 10px 0 0 20px;
+}
+
+#nav ul li{
+    list-style: url(../images/note-cat.png);
+}
+
+.list-view.summary{
+    display:none;
+}
+
+#nav ul li a:link,
+#nav ul li a:visited{
+    display:block;
+    padding: 0 0 10px 0;
+    font-size: 1.2em;
+    color: rgb(24, 32, 221);
+    font-weight: bold;
+}
+
+#nav ul li a:hover,
+#nav ul li a.active:visited{
+    color: #ce1135;
+    text-decoration: none;
+}
+
+.SubContent02 {
+    width: 760px;
+    position: relative;
+    float:left;
+    margin-left: 2px;
+
+}
+
+.SubContent02.list-view{
+    width: 760px;
+    position: relative;
+}
+
+.SubContent02.ViewAllBtn {
+    position: absolute;
+}
+.SubContent02.ViewAllBtn a:link,
+.SubContent02.ViewAllBtn a:visited {
+    font-size: 1.2em;
+    color: #FFF;
+}
+.SubContent02.ParaStyle01 a:link,
+.SubContent02.ParaStyle01 a:visited {
+    background: url(../images/arrow-01.gif) no-repeat left 1px;
+    padding: 0 0 0 20px;
+}
+.SubContent02.ParaStyle01 a:hover {
+    text-decoration: none;
+}
+.ListProduct {
+    width: 760px;
+    overflow: hidden;
+}
+
+.ProductLi {
+    background: url(../images/product-footer.jpg) no-repeat bottom;
+    height: 250px;
+    width: 175px;
+    float: left;
+    border: 1px solid #e8f3fa;
+    margin: 0 0 10px 10px;
+}
+
+.thumbnails a #news-image{
+    border: 0;
+    height: 120px;
+    width: 120px;
+    padding: 5px;
+}
+
+.description.product-title a{
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #619d3a;
+}
+
+.description .product-title{
+    height: 47px;
+}
+
+.lower-section{
+    padding-bottom: 5px;
+}
+
+.p-price{
+    color: #cb0027;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.p-unit{
+    color: #9c9c9c;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.p-order{
+    background: url(../images/add-to-basket.gif) no-repeat bottom;
+    height: 23px;
+    width: 65px;
+}
+
+.images2{
+    border: 1px solid #e8f3fa;
+    height: 150px;
+    width: 165px;
+    padding: 5px;
+    margin-left: 10px;
+    float: left;
+    color: #9c9c9c;
+    background: url(../images/footer-cat.jpg) bottom repeat-x;
+}
+
+.images2 a{
+    color: #9c9c9c;
+}
+
+.description2{
+    font-size: 1.2em;
+    float:right;
+    width: 555px;
+    margin-right: 10px;
+}
+
+.product-title2 {
+    color: #619d3a;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #c9e0f0;
+}
+
+.ListProduct li .ParaStyle01 {
+    float: right;
+    padding: 10px 0 0 0;
+    clear: both;
+}
+.ListProduct li .ParaStyle01 a:link,
+.ListProduct li .ParaStyle01 a:visited {
+    color: #FFF;
+    background: #ff7777 url(../images/arrow-01.gif) no-repeat 10px 5px;
+    padding: 3px 10px 3px 30px;
+    display: block;
+}
+.ListProduct li .ParaStyle01 a:hover {
+    text-decoration: none;
+}
+
+.RelatedPro{
+    float:left;
+    clear:both;
+    width:811px;
+    margin:20px 0 0 5px;
+}
+
+.RelatedPro h3{
+    font-size: 1.3em;
+    color: #186ba2;
+    height: 20px;
+}
+
+.jcarousel-skin-tango{
+    margin-top: 7px;
+}
+
+.FuncBox_footer {
+    margin-top: 10px;
+    font-size: 1.4em;
+    width: 970px;
+    height: 60px;
+    padding: 7px 0 0 0;
+    color: #1a7fc3;
+    border-top: 2px solid #3695d5;
+}
+
+.FuncBox_footer a{
+    color: #1a7fc3;
+    padding: 0 15px 0 10px;
+}
+
+.FuncBox_footer a:hover{
+    color: #d4d4d4;
+    text-decoration: none;
+}
+
+.FuncBox_footer p{
+    text-align: right;
+    padding-right: 10px;
+}
+
+.FuncBox_footer p #addr{
+    padding-top: 10px;
+    display: block;
+}
+
+.pager {
+    padding: 5px;
+    clear: both;
+}
+
+.button_giohang{
+    background: url(../images/button-giohang.jpg) no-repeat;
+    height:25px;
+    width:87px;
+}
+
+.maps{
+    background: url(../images/thumbnails-maps.png) no-repeat;
+    height:144px;
+    width:212px;
+    border: 1px solid #807d7d;
+    margin: 7px 0 7px 0;   
+    float: left;
+}
+
+.errorMessage{
+    display: inline;
+}
